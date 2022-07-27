@@ -1,0 +1,20 @@
+.ejemploGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-areas: 
+    "texto video";
+    gap: 20px;
+    background-image: url('./download.jfif');
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+}
+
+.texto {
+    grid-area: texto;
+}
+
+.video {
+    grid-area: video;
+
+}
